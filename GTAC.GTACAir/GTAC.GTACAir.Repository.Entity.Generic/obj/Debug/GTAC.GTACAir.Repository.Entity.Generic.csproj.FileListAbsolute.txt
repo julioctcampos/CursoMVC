@@ -1,0 +1,12 @@
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Repository.Entity.Generic\bin\Debug\GTAC.GTACAir.Repository.Entity.Generic.dll.config
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Repository.Entity.Generic\bin\Debug\GTAC.GTACAir.Repository.Entity.Generic.dll
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Repository.Entity.Generic\bin\Debug\GTAC.GTACAir.Repository.Entity.Generic.pdb
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Repository.Entity.Generic\bin\Debug\EntityFramework.dll
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Repository.Entity.Generic\bin\Debug\EntityFramework.SqlServer.dll
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Repository.Entity.Generic\bin\Debug\GTAC.Repository.Interfaces.dll
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Repository.Entity.Generic\bin\Debug\GTAC.Repository.Interfaces.pdb
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Repository.Entity.Generic\bin\Debug\EntityFramework.xml
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Repository.Entity.Generic\bin\Debug\EntityFramework.SqlServer.xml
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Repository.Entity.Generic\obj\Debug\GTAC.GTACAir.Repository.Entity.Generic.csprojResolveAssemblyReference.cache
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Repository.Entity.Generic\obj\Debug\GTAC.GTACAir.Repository.Entity.Generic.dll
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Repository.Entity.Generic\obj\Debug\GTAC.GTACAir.Repository.Entity.Generic.pdb

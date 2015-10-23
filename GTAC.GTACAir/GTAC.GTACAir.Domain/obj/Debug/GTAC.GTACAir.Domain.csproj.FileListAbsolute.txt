@@ -1,0 +1,5 @@
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Domain\bin\Debug\GTAC.GTACAir.Domain.dll
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Domain\bin\Debug\GTAC.GTACAir.Domain.pdb
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Domain\obj\Debug\GTAC.GTACAir.Domain.dll
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Domain\obj\Debug\GTAC.GTACAir.Domain.pdb
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Domain\obj\Debug\GTAC.GTACAir.Domain.csprojResolveAssemblyReference.cache

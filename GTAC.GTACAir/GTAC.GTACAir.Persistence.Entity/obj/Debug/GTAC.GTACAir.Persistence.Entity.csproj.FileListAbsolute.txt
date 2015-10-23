@@ -1,0 +1,17 @@
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Persistence.Entity\bin\Debug\GTAC.GTACAir.Persistence.Entity.dll.config
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Persistence.Entity\bin\Debug\GTAC.GTACAir.Persistence.Entity.dll
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Persistence.Entity\bin\Debug\GTAC.GTACAir.Persistence.Entity.pdb
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Persistence.Entity\bin\Debug\EntityFramework.dll
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Persistence.Entity\bin\Debug\EntityFramework.SqlServer.dll
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Persistence.Entity\bin\Debug\GTAC.GTACAir.Domain.dll
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Persistence.Entity\bin\Debug\GTAC.GTACAir.Domain.pdb
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Persistence.Entity\bin\Debug\EntityFramework.xml
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Persistence.Entity\bin\Debug\EntityFramework.SqlServer.xml
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Persistence.Entity\obj\Debug\GTAC.GTACAir.Persistence.Entity.csprojResolveAssemblyReference.cache
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Persistence.Entity\obj\Debug\GTAC.GTACAir.Persistence.Entity.Migrations.Add_Aircraft.resources
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Persistence.Entity\obj\Debug\GTAC.GTACAir.Persistence.Entity.csproj.GenerateResource.Cache
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Persistence.Entity\obj\Debug\GTAC.GTACAir.Persistence.Entity.dll
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Persistence.Entity\obj\Debug\GTAC.GTACAir.Persistence.Entity.pdb
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Persistence.Entity\obj\Debug\GTAC.GTACAir.Persistence.Entity.Migrations.Aircraft_ManufactureSite_field.resources
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Persistence.Entity\obj\Debug\GTAC.GTACAir.Persistence.Entity.Migrations.Add_Crew.resources
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Persistence.Entity\obj\Debug\GTAC.GTACAir.Persistence.Entity.Migrations.Add_Component.resources

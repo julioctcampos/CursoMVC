@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTAC.GTACAir.Domain", "GTAC.GTACAir.Domain\GTAC.GTACAir.Domain.csproj", "{20FD1B34-B36C-4432-B926-A9D10773AD13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTAC.GTACAir.Persistence.Entity", "GTAC.GTACAir.Persistence.Entity\GTAC.GTACAir.Persistence.Entity.csproj", "{046F18DF-11EE-4B47-81FD-FA9391E643E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTAC.GTACAir.Web", "GTAC.GTACAir.Web\GTAC.GTACAir.Web.csproj", "{052F64FB-D08F-4319-A5F0-8E38ED5880C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTAC.Repository.Interfaces", "GTAC.Repository.Interfaces\GTAC.Repository.Interfaces.csproj", "{F9AE0354-2F32-4A71-BD84-73D9E514B706}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTAC.GTACAir.Repository.Entity.Generic", "GTAC.GTACAir.Repository.Entity.Generic\GTAC.GTACAir.Repository.Entity.Generic.csproj", "{2A75CA3B-0EE7-49C4-924D-C178BE17A91F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTAC.GTACAir.Repository.Entity.Impl.v1", "GTAC.GTACAir.Repository.Entity.Impl.v1\GTAC.GTACAir.Repository.Entity.Impl.v1.csproj", "{DCE5C8F7-1D39-4A11-AA9C-FD1AF7A8E4FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTAC.GTACAir.Services.Interfaces", "GTAC.GTACAir.Services.Interfaces\GTAC.GTACAir.Services.Interfaces.csproj", "{888524E1-E6A9-4768-B590-059EDFEF7726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTAC.GTACAir.Services.Impl.v1", "GTAC.GTACAir.Services.Impl.v1\GTAC.GTACAir.Services.Impl.v1.csproj", "{748A33CD-7D5D-4FB2-A956-77933BB1393D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{72DEF169-5CD5-4545-9A02-F7209A23A3D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTAC.GTACAir.Services.Test", "Tests\GTAC.GTACAir.Services.Test\GTAC.GTACAir.Services.Test.csproj", "{A56859C5-D7C2-4F0E-8B40-A2CB38B49B58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20FD1B34-B36C-4432-B926-A9D10773AD13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FD1B34-B36C-4432-B926-A9D10773AD13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FD1B34-B36C-4432-B926-A9D10773AD13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FD1B34-B36C-4432-B926-A9D10773AD13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046F18DF-11EE-4B47-81FD-FA9391E643E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046F18DF-11EE-4B47-81FD-FA9391E643E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046F18DF-11EE-4B47-81FD-FA9391E643E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046F18DF-11EE-4B47-81FD-FA9391E643E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{052F64FB-D08F-4319-A5F0-8E38ED5880C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052F64FB-D08F-4319-A5F0-8E38ED5880C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052F64FB-D08F-4319-A5F0-8E38ED5880C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052F64FB-D08F-4319-A5F0-8E38ED5880C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9AE0354-2F32-4A71-BD84-73D9E514B706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9AE0354-2F32-4A71-BD84-73D9E514B706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9AE0354-2F32-4A71-BD84-73D9E514B706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9AE0354-2F32-4A71-BD84-73D9E514B706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A75CA3B-0EE7-49C4-924D-C178BE17A91F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A75CA3B-0EE7-49C4-924D-C178BE17A91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A75CA3B-0EE7-49C4-924D-C178BE17A91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A75CA3B-0EE7-49C4-924D-C178BE17A91F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCE5C8F7-1D39-4A11-AA9C-FD1AF7A8E4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE5C8F7-1D39-4A11-AA9C-FD1AF7A8E4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE5C8F7-1D39-4A11-AA9C-FD1AF7A8E4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE5C8F7-1D39-4A11-AA9C-FD1AF7A8E4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888524E1-E6A9-4768-B590-059EDFEF7726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888524E1-E6A9-4768-B590-059EDFEF7726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888524E1-E6A9-4768-B590-059EDFEF7726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888524E1-E6A9-4768-B590-059EDFEF7726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{748A33CD-7D5D-4FB2-A956-77933BB1393D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748A33CD-7D5D-4FB2-A956-77933BB1393D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748A33CD-7D5D-4FB2-A956-77933BB1393D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748A33CD-7D5D-4FB2-A956-77933BB1393D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56859C5-D7C2-4F0E-8B40-A2CB38B49B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56859C5-D7C2-4F0E-8B40-A2CB38B49B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56859C5-D7C2-4F0E-8B40-A2CB38B49B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56859C5-D7C2-4F0E-8B40-A2CB38B49B58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A56859C5-D7C2-4F0E-8B40-A2CB38B49B58} = {72DEF169-5CD5-4545-9A02-F7209A23A3D9}
+	EndGlobalSection
+EndGlobal

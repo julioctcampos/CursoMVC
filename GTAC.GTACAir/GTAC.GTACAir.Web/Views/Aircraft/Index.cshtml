@@ -1,0 +1,103 @@
+﻿@using GTAC.GTACAir.Web.Models
+
+@model IEnumerable<AircraftViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<div class="row">
+    <div class="col-md-10 col-lg-10 col-sm-10">
+        @Html.TextBox("aircraftModel", null, new { @class = "form-control", placeholder = "Digite o nome da aeronave aqui..." })
+    </div>
+    <div class="col-md-2 col-lg-2 col-sm-2">
+        <button id="btnPesquisar" class="btn btn-default">Pesquisar</button>
+    </div>
+</div>
+<br />
+<table class="table" id="tblAircrafts">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Model)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Preffix)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SeatCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ManufacturerSite)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Model)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Preffix)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SeatCount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ManufacturerSite)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
+@section scripts{
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btnPesquisar").click(function () {
+                var modelFilter = $("#aircraftModel").val();
+                $.ajax({
+                    method: "GET",
+                    url: "@Url.Action("FilterAircrafts", "Aircraft")" + "/" + modelFilter,
+                    success: function (data) {
+                        $("#tblAircrafts tbody > tr").remove();
+                        $.each(data, function (index, aircraft) {
+                            $("#tblAircrafts tbody").append(
+                                "<tr>" +
+                                "   <td>" + aircraft.Model + "</td>" +
+                                "   <td>" + aircraft.Prefix + "</td>" +
+                                "   <td>" + aircraft.SeatCount + "</td>" +
+                                "   <td><a href='" + aircraft.ManufacturerSite + "'>" + aircraft.ManufacturerSite +"</a></td>" +
+                                "   <td>" +
+                                "       <a href='/Aircraft/Edit/" + aircraft.Id + "'>Edit</a> |" +
+                                "       <a href='/Aircraft/Details/" + aircraft.Id + "'>Details</a> |" +
+                                "       <a href='/Aircraft/Delete/" + aircraft.Id + "'>Delete</a>" +
+                                "   </td>" + 
+                                "</tr>"
+                             );
+                        });
+                    },
+                    error: function (data) {
+                        alert("Houve um erro ao chamar o servidor.");
+                    }
+                });
+            });
+        });
+    </script>
+    
+}

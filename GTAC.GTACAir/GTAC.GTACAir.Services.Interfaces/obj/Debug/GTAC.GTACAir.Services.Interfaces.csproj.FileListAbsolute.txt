@@ -1,0 +1,7 @@
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Services.Interfaces\bin\Debug\GTAC.GTACAir.Services.Interfaces.dll
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Services.Interfaces\bin\Debug\GTAC.GTACAir.Services.Interfaces.pdb
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Services.Interfaces\bin\Debug\GTAC.GTACAir.Domain.dll
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Services.Interfaces\bin\Debug\GTAC.GTACAir.Domain.pdb
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Services.Interfaces\obj\Debug\GTAC.GTACAir.Services.Interfaces.csprojResolveAssemblyReference.cache
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Services.Interfaces\obj\Debug\GTAC.GTACAir.Services.Interfaces.dll
+D:\Curso MVC\GTAC.GTACAir\GTAC.GTACAir.Services.Interfaces\obj\Debug\GTAC.GTACAir.Services.Interfaces.pdb

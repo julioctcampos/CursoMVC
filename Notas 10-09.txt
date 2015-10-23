@@ -1,0 +1,16 @@
+Curso MVC
+Pesquisar sobre solid
+Transform web config - configuração de acordo com o perfil escolhido
+
+Projeto Domain as classes devem ser apenas propriedades pura, sem metodos
+
+**Configurar o Migrations
+Abrir o Package Manager Console
+Enable-Migrations -ProjectName GTAC.GTACAir.Persistence.Entity -StartupProjectName GTAC.GTACAir.Persistence.Entity
+
+Add Migration
+Add-Migration "Add_Aircraft" -ProjectName GTAC.GTACAir.Persistence.Entity -StartUpProjectName GTAC.GTACAir.Persistence.Entity
+
+Atualizar a migration no banco de dados 
+Update-Database -ProjectName GTAC.GTACAir.Persistence.Entity -StartUpProjectName GTAC.GTACAir.Persistence.Entity -Verbose
+

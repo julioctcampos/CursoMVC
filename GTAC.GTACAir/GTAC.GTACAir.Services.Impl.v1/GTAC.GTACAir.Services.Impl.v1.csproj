@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{748A33CD-7D5D-4FB2-A956-77933BB1393D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GTAC.GTACAir.Services.Impl.v1</RootNamespace>
+    <AssemblyName>GTAC.GTACAir.Services.Impl.v1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AircraftService.cs" />
+    <Compile Include="ComponentService.cs" />
+    <Compile Include="Exceptions\TooManyComponentsException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GTAC.GTACAir.Domain\GTAC.GTACAir.Domain.csproj">
+      <Project>{20fd1b34-b36c-4432-b926-a9d10773ad13}</Project>
+      <Name>GTAC.GTACAir.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GTAC.GTACAir.Repository.Entity.Generic\GTAC.GTACAir.Repository.Entity.Generic.csproj">
+      <Project>{2a75ca3b-0ee7-49c4-924d-c178be17a91f}</Project>
+      <Name>GTAC.GTACAir.Repository.Entity.Generic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GTAC.GTACAir.Repository.Entity.Impl.v1\GTAC.GTACAir.Repository.Entity.Impl.v1.csproj">
+      <Project>{dce5c8f7-1d39-4a11-aa9c-fd1af7a8e4ff}</Project>
+      <Name>GTAC.GTACAir.Repository.Entity.Impl.v1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GTAC.GTACAir.Services.Interfaces\GTAC.GTACAir.Services.Interfaces.csproj">
+      <Project>{888524e1-e6a9-4768-b590-059edfef7726}</Project>
+      <Name>GTAC.GTACAir.Services.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GTAC.Repository.Interfaces\GTAC.Repository.Interfaces.csproj">
+      <Project>{f9ae0354-2f32-4a71-bd84-73d9e514b706}</Project>
+      <Name>GTAC.Repository.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
