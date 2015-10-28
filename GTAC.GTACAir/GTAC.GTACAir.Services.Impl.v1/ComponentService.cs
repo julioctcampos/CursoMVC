@@ -22,16 +22,21 @@ namespace GTAC.GTACAir.Services.Impl.v1
             _componentRepository = componentRepository;
         }
 
+        public bool CanAddComponent(int aircraftId)
+        {
+            Aircraft aircraft = _aircraftRepository.SelectByKey(aircraftId);
+            return !(aircraft.Components.Count > 3);
+        }
+
         public void Insert(Component component)
         {
-            Aircraft aircraft = _aircraftRepository.SelectByKey(component.AircraftId);
-            if (aircraft.Components.Count < 3)
+            if (CanAddComponent(component.AircraftId))
             {
                 _componentRepository.Insert(component);
             }
             else
             {
-                throw new TooManyComponentsException(aircraft.Components.Count);
+                throw new TooManyComponentsException();
             }
         }
 

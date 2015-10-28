@@ -15,6 +15,7 @@ using GTAC.GTACAir.Repository.Entity.Impl.v1;
 
 namespace GTAC.GTACAir.Web.Controllers
 {
+    [Authorize]
     public class CrewController : Controller
     {
         IGTACGenericRepository<Crew, int> _repository;

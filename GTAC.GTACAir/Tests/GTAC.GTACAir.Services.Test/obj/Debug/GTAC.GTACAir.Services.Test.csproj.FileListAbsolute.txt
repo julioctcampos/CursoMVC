@@ -34,3 +34,8 @@ D:\Curso MVC\GTAC.GTACAir\Tests\GTAC.GTACAir.Services.Test\bin\Debug\xunit.execu
 D:\Curso MVC\GTAC.GTACAir\Tests\GTAC.GTACAir.Services.Test\obj\Debug\GTAC.GTACAir.Services.Test.csprojResolveAssemblyReference.cache
 D:\Curso MVC\GTAC.GTACAir\Tests\GTAC.GTACAir.Services.Test\obj\Debug\GTAC.GTACAir.Services.Test.dll
 D:\Curso MVC\GTAC.GTACAir\Tests\GTAC.GTACAir.Services.Test\obj\Debug\GTAC.GTACAir.Services.Test.pdb
+D:\Curso MVC\GTAC.GTACAir\Tests\GTAC.GTACAir.Services.Test\bin\Debug\Moq.dll
+D:\Curso MVC\GTAC.GTACAir\Tests\GTAC.GTACAir.Services.Test\bin\Debug\Moq.xml
+D:\Curso MVC\GTAC.GTACAir\Tests\GTAC.GTACAir.Services.Test\bin\Debug\chromedriver.exe
+D:\Curso MVC\GTAC.GTACAir\Tests\GTAC.GTACAir.Services.Test\bin\Debug\WebDriver.dll
+D:\Curso MVC\GTAC.GTACAir\Tests\GTAC.GTACAir.Services.Test\bin\Debug\WebDriver.xml

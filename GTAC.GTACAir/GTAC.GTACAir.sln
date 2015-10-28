@@ -23,6 +23,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{72DEF169
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTAC.GTACAir.Services.Test", "Tests\GTAC.GTACAir.Services.Test\GTAC.GTACAir.Services.Test.csproj", "{A56859C5-D7C2-4F0E-8B40-A2CB38B49B58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTAC.GTACAir.LoadTests", "Tests\GTAC.GTACAir.LoadTests\GTAC.GTACAir.LoadTests.csproj", "{9D0C9F1F-6412-4EE1-AB00-CE10C4C81154}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D7D3050D-D3A9-45FA-BAA3-E0F537784381}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,11 +72,17 @@ Global
 		{A56859C5-D7C2-4F0E-8B40-A2CB38B49B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A56859C5-D7C2-4F0E-8B40-A2CB38B49B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A56859C5-D7C2-4F0E-8B40-A2CB38B49B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D0C9F1F-6412-4EE1-AB00-CE10C4C81154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0C9F1F-6412-4EE1-AB00-CE10C4C81154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0C9F1F-6412-4EE1-AB00-CE10C4C81154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0C9F1F-6412-4EE1-AB00-CE10C4C81154}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A56859C5-D7C2-4F0E-8B40-A2CB38B49B58} = {72DEF169-5CD5-4545-9A02-F7209A23A3D9}
+		{9D0C9F1F-6412-4EE1-AB00-CE10C4C81154} = {72DEF169-5CD5-4545-9A02-F7209A23A3D9}
+		{D7D3050D-D3A9-45FA-BAA3-E0F537784381} = {72DEF169-5CD5-4545-9A02-F7209A23A3D9}
 	EndGlobalSection
 EndGlobal

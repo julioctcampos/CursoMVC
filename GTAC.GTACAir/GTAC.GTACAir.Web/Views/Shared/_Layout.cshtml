@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - GTAC AIR</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
@@ -16,13 +16,24 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("GTAC AIR", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Aeronaves", "Index", "Aircraft")</li>
+                    <li>@Html.ActionLink("Componentes", "Index", "Component")</li>
+                    <li>@Html.ActionLink("Tripulantes", "Index", "Crew")</li>
+                    <li>@Html.ActionLink("Usuários", "CreateUser", "Account")</li>
+                    @if (Request.IsAuthenticated)
+                    {
+                        <li class="nav navbar-text h4">Olá @Request.GetOwinContext().Authentication.User.Identity.Name</li>
+                        <li class="h4">@Html.ActionLink("Sair", "Logoff", "Account")</li>
+                    }
+                    else
+                    {
+                        <li>@Html.ActionLink("Fazer Login", "Login", "Account")</li>
+                    }
                 </ul>
             </div>
         </div>

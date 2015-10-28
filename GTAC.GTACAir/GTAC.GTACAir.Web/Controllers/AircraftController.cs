@@ -15,6 +15,7 @@ using GTAC.GTACAir.Repository.Entity.Impl.v1;
 
 namespace GTAC.GTACAir.Web.Controllers
 {
+    [Authorize]
     public class AircraftController : Controller
     {
         IGTACGenericRepository<Aircraft, int> _repository;
@@ -57,6 +58,7 @@ namespace GTAC.GTACAir.Web.Controllers
         }
 
         // GET: Aircraft/Create
+        [Authorize(Roles = "ADMIN")]
         public ActionResult Create()
         {
             return View();
@@ -65,6 +67,8 @@ namespace GTAC.GTACAir.Web.Controllers
         // POST: Aircraft/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+
+        [Authorize(Roles = "ADMIN")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Id,Model,Preffix,SeatCount,ManufacturerSite")] AircraftViewModel aircraftViewModel)

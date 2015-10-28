@@ -12,6 +12,7 @@ using System.Web.Mvc;
 
 namespace GTAC.GTACAir.Web.Controllers
 {
+    [Authorize]
     public class ComponentController : Controller
     {
         private IComponentService _componentService;

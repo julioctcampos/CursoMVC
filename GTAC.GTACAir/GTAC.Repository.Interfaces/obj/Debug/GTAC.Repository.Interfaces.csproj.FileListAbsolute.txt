@@ -1,5 +1,4 @@
 D:\Curso MVC\GTAC.GTACAir\GTAC.Repository.Interfaces\bin\Debug\GTAC.Repository.Interfaces.dll
 D:\Curso MVC\GTAC.GTACAir\GTAC.Repository.Interfaces\bin\Debug\GTAC.Repository.Interfaces.pdb
-D:\Curso MVC\GTAC.GTACAir\GTAC.Repository.Interfaces\obj\Debug\GTAC.Repository.Interfaces.csprojResolveAssemblyReference.cache
 D:\Curso MVC\GTAC.GTACAir\GTAC.Repository.Interfaces\obj\Debug\GTAC.Repository.Interfaces.dll
 D:\Curso MVC\GTAC.GTACAir\GTAC.Repository.Interfaces\obj\Debug\GTAC.Repository.Interfaces.pdb

@@ -10,8 +10,8 @@ namespace GTAC.GTACAir.Services.Impl.v1.Exceptions
     {
         public int QuantityOfComponents { get; private set; }
 
-        public TooManyComponentsException(int quantityOfComponents)
-            : base(string.Format("A aeronave já possui {0} peças atreladas.", quantityOfComponents))
+        public TooManyComponentsException(int quantityOfComponents = 3)
+            : base(string.Format("A aeronave já possui {0} peças ou mais atreladas.", quantityOfComponents))
         {
             QuantityOfComponents = quantityOfComponents;
         }

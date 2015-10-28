@@ -12,5 +12,7 @@ namespace GTAC.GTACAir.Services.Interfaces
         void Insert(Component component);
 
         List<Component> Select();
+
+        bool CanAddComponent(int aircraftId);
     }
 }
