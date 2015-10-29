@@ -18,9 +18,29 @@ namespace GTAC.GTACAir.Services.Impl.v1
             _aircraftRepository = aircraftRepository;
         }
 
+        public void Delete(int aircraftId)
+        {
+            _aircraftRepository.DeleteByKey(aircraftId);
+        }
+
+        public void Insert(Aircraft aircraft)
+        {
+            _aircraftRepository.Insert(aircraft);
+        }
+
         public List<Aircraft> Select()
         {
             return _aircraftRepository.SelectAll();
+        }
+
+        public Aircraft SelectById(int aircraftId)
+        {
+            return _aircraftRepository.SelectByKey(aircraftId);
+        }
+
+        public void Update(Aircraft aircraft)
+        {
+            _aircraftRepository.Update(aircraft);
         }
     }
 }
