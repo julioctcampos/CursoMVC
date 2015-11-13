@@ -12,6 +12,7 @@ namespace GTAC.GTACAir.WebApi.App_Start
     using Ninject.Web.Common;
     using System.Reflection;
     using System.Web.Http;
+    using Ninject.Web.WebApi;
 
     public static class NinjectWebCommon 
     {
